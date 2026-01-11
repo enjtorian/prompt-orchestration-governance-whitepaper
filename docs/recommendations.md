@@ -57,7 +57,7 @@ This guide provides actionable recommendations for organizations considering or 
 - No budget for additional tooling
 - Urgent delivery timelines that preclude formalization
 
-**Perspective**: Start with lightweight approaches and gradually adopt more systematic practices as your prompt usage and team size grow. POG describes patterns visible at scale—implement it when those patterns become relevant for you.
+**Perspective**: Start with lightweight approaches and gradually adopt more systematic practices as your prompt usage and team size grow. POG describes patterns visible at scale implement it when those patterns become relevant for you.
 
 ---
 
@@ -536,7 +536,7 @@ Adopting systematic prompt practices (like those described in POG) becomes incre
 4. **Institutional Knowledge**: Patterns worth capturing accumulate
 5. **Continuous Learning**: Feedback from real usage informs refinement
 
-**Progressive Adoption**: Begin with informal practices, then adopt systematic structures only when the benefits outweigh the overhead. There's no single "right time"—it depends on your context.
+**Progressive Adoption**: Begin with informal practices, then adopt systematic structures only when the benefits outweigh the overhead. There's no single "right time" it depends on your context.
 
 **Suggested Path**:
 1. Assess your organization's prompt usage and team dynamics

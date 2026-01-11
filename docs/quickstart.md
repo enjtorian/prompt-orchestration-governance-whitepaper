@@ -45,7 +45,7 @@ Developers B, C, D: Find it, use it, provide feedback
 Result: Prompts improve over time, knowledge is shared and compounds
 ```
 
-**What this means**: When prompts are managed systematically, they become more valuable—not because the method is superior, but because visibility and feedback multiply their usefulness.
+**What this means**: When prompts are managed systematically, they become more valuablenot because the method is superior, but because visibility and feedback multiply their usefulness.
 
 ---
 
@@ -244,10 +244,10 @@ No. POG adds:
 - ✅ Integration with development workflow
 
 ### "We already use ChatGPT/Claude"
-POG doesn't replace them—it enhances them:
+POG doesn't replace themit enhances them:
 - You still use ChatGPT/Claude to **execute** prompts
 - POG helps you **manage, share, and improve** those prompts
-- Like Git doesn't replace your code editor—it manages your code
+- Like Git doesn't replace your code editorit manages your code
 
 ### "How is this different from prompt libraries?"
 POG is more comprehensive:

@@ -52,7 +52,7 @@ A normalized prompt that has passed testing against evaluation cases. Validation
 **Lifecycle Stage**: Quality-assured and ready for production.
 
 ### Skill Prompt
-A validated, production-ready, versioned, and governed prompt artifact. Skill prompts are the end goal of the POG lifecycle—reusable assets managed as part of organizational knowledge.
+A validated, production-ready, versioned, and governed prompt artifact. Skill prompts are the end goal of the POG lifecycle reusable assets managed as part of organizational knowledge.
 
 **Example**: "Code Review Assistant v2.1" stored in the prompt repository with full metadata, versioning, and usage tracking.
 

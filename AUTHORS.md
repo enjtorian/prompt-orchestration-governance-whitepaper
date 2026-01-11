@@ -21,9 +21,9 @@
 ### Background
 Over 20 years as a software systems architect has given me a front-row seat to how teams organize their work. When LLM-powered coding tools emerged, I noticed something: colleagues were achieving remarkable things with prompts, but those prompts remained invisible, undocumented, and unrepeated.
 
-This paper is not an invention. It's an attempt to name what I've observed happening—often independently—across teams and organizations. The patterns described here are not new; they're just becoming more visible as more teams cross the threshold where prompts become shared assets.
+This paper is not an invention. It's an attempt to name what I've observed happening often independently across teams and organizations. The patterns described here are not new; they're just becoming more visible as more teams cross the threshold where prompts become shared assets.
 
-POG emerged from watching teams solve similar problems, using similar approaches, but calling them different things. If this framework helps you recognize and name what you're already doing, and accelerates the conversation with others doing the same—then it has succeeded.
+POG emerged from watching teams solve similar problems, using similar approaches, but calling them different things. If this framework helps you recognize and name what you're already doing, and accelerates the conversation with others doing the same then it has succeeded.
 
 ---
 

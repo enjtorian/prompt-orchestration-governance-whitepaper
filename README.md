@@ -29,7 +29,7 @@ This repository contains the whitepaper for **Prompt Orchestration Governance (P
 
 As a software systems architect with over 20 years of experience, I had a front-row seat to how teams organize their work. When LLM-powered coding tools emerged, I noticed something: colleagues were achieving remarkable things with prompts, but those prompts remained invisible, undocumented, and unrepeated.
 
-This paper is not an invention. It's an attempt to name what I've observed happening—often independently—across teams and organizations. The patterns described here are not new; they're just becoming more visible as more teams cross the threshold where prompts become shared assets.
+This paper is not an invention. It's an attempt to name what I've observed happening often independently across teams and organizations. The patterns described here are not new; they're just becoming more visible as more teams cross the threshold where prompts become shared assets.
 
 **Connect:**  
 - 🔗 LinkedIn: https://tw.linkedin.com/in/enjtorian

@@ -52,7 +52,7 @@ Prompt Orchestration Governance (POG) 框架中使用術語的全面定義。
 **生命週期階段**：品質保證且可用於生產。
 
 ### Skill Prompt
-經過驗證、可用於生產、版本化和受治理的 prompt 工件。Skill prompts 是 POG 生命週期的最終目標——作為組織知識一部分管理的可重複使用資產。
+經過驗證、可用於生產、版本化和受治理的 prompt 工件。Skill prompts 是 POG 生命週期的最終目標作為組織知識一部分管理的可重複使用資產。
 
 **範例**："程式碼審查助手 v2.1" 儲存在 prompt repository 中，具有完整的元資料、版本控制和使用追蹤。
 
