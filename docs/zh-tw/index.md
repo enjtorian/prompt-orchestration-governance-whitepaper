@@ -474,7 +474,7 @@ POG 不是要取代傳統的 SDLC 實踐或人類專業知識。相反地，它�
 - 🔗 LinkedIn: https://tw.linkedin.com/in/enjtorian
 - 💻 GitHub: [@enjtorian](https://github.com/enjtorian)
 
-完整貢獻者資訊和引用指南,請參閱 [AUTHORS.md](../../AUTHORS.md)。
+完整貢獻者資訊和引用指南,請參閱 [AUTHORS.md](https://github.com/enjtorian/prompt-orchestration-governance-whitepaper/blob/main/AUTHORS.md)。
 
 ---
 

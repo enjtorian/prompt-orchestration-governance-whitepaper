@@ -474,7 +474,7 @@ With over 20 years of experience as a software systems architect, I witnessed a 
 - 🔗 LinkedIn: https://tw.linkedin.com/in/enjtorian
 - 💻 GitHub: [@enjtorian](https://github.com/enjtorian)
 
-For detailed contributor information and citation guidelines, see [AUTHORS.md](../AUTHORS.md).
+For detailed contributor information and citation guidelines, see [AUTHORS.md](https://github.com/enjtorian/prompt-orchestration-governance-whitepaper/blob/main/AUTHORS.md).
 
 ---
 

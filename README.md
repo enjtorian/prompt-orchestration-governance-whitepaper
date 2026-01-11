@@ -33,7 +33,7 @@ With over 20 years of experience as a software systems architect, I witnessed a 
 - 🔗 LinkedIn: https://tw.linkedin.com/in/enjtorian
 - 💻 GitHub: [@enjtorian](https://github.com/enjtorian)
 
-See [AUTHORS.md](AUTHORS.md) for complete contributor information and citation guidelines.
+See [AUTHORS.md](https://github.com/enjtorian/prompt-orchestration-governance-whitepaper/blob/main/AUTHORS.md) for complete contributor information and citation guidelines.
 
 ---
 
@@ -251,7 +251,7 @@ https://github.com/enjtorian/prompt-orchestration-governance-whitepaper
 Licensed under CC BY 4.0
 ```
 
-For detailed citation information, see [AUTHORS.md](AUTHORS.md).
+For detailed citation information, see [AUTHORS.md](https://github.com/enjtorian/prompt-orchestration-governance-whitepaper/blob/main/AUTHORS.md).
 
 ---
 
