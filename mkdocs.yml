@@ -1,0 +1,97 @@
+site_name: POG - Prompt Orchestration Governance
+site_description: A governance-first framework for managing prompts as first-class software assets across the SDLC with interaction-to-skill lifecycle
+site_author: Ted Enjtorian
+site_url: https://enjtorian.github.io/prompt-orchestration-governance-whitepaper
+site_keywords: POG, Prompt Orchestration, Governance, LLM, AI, Software Development, SDLC, Vibe Coding
+
+repo_name: POG Whitepaper
+repo_url: https://github.com/enjtorian/prompt-orchestration-governance-whitepaper
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - search
+  - mermaid2
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  - footnotes
+
+extra:
+  alternate:
+    - name: English
+      link: /
+      lang: en
+    - name: 繁體中文
+      link: /zh-tw/
+      lang: zh-tw
+
+nav:
+  - Home: index.md
+  - Quick Start: quickstart.md
+  - Diagrams: diagrams.md
+  - Comparisons:
+    - Overview: comparisons/index.md
+    - vs PDD: comparisons/pdd.md
+    - vs PDE: comparisons/pde.md
+  - Automation Diagrams: automation-diagrams.md
+  - Recommendations: recommendations.md
+  - FAQ: faq.md
+  - Glossary: glossary.md
+  - 繁體中文:
+    - 首頁: zh-tw/index.md
+    - 快速入門: zh-tw/quickstart.md
+    - 架構圖: zh-tw/diagrams.md
+    - 比較分析:
+      - 總覽: zh-tw/comparisons/index.md
+      - vs PDD: zh-tw/comparisons/pdd.md
+      - vs PDE: zh-tw/comparisons/pde.md
+    - 自動化圖表: zh-tw/automation-diagrams.md
+    - 實施建議: zh-tw/recommendations.md
+    - 常見問題: zh-tw/faq.md
+    - 術語表: zh-tw/glossary.md
