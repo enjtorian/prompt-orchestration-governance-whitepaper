@@ -19,60 +19,72 @@ Rather than treating prompts as ad-hoc inputs, POG positions them as **first-cla
 
 ---
 
+## Scope & Intent
+
+This paper is **not** an attempt to standardize prompt practices, nor does it propose replacing existing engineering or governance models. Rather, it names a missing layer that becomes visible only when prompts are shared, reused, and operationalized at scale.
+
+Many teams—independently and without coordination—converge on similar patterns for managing prompts. This paper offers a lens for reasoning about those patterns, not a mandate for how they must look. If your experience differs from what's described here, that mismatch itself is valuable signal for how the model needs to evolve.
+
+---
+
 ## 1. Problem Statement
 
-### 1.1 The Efficiency Gap in AI-Enabled Development
+### 1.1 The Fragmentation Pattern in AI-Enabled Development
 
-Modern software development increasingly relies on AI assistance through prompts. However, most organizations face critical challenges:
+Modern software development increasingly relies on AI assistance through prompts. What we observe is not that organizations are "missing" something—but rather that teams, working independently, have converged on remarkably similar challenges:
 
-- **Ad-hoc Prompt Creation**: Teams create prompts informally, resulting in duplicated effort and inconsistent quality
-- **Lack of Reusability**: Effective prompts discovered during one project are lost or forgotten in the next
-- **No Systematic Discovery**: Organizations lack processes to identify, capture, and refine valuable prompts
-- **SDLC Misalignment**: Prompts are not systematically organized by development phase, making them hard to find when needed
+- **Scattered Prompts**: Effective prompts emerge from projects and conversations, but remain trapped in chat histories or local notebooks
+- **Reimplementation Cycle**: Each team rediscovers similar patterns independently because there's no shared vocabulary to recognize and reuse them
+- **Hidden Institutional Knowledge**: Valuable patterns exist but aren't surfaced or named systematically
+- **Phase Misalignment**: Teams often find prompts are scattered across different contexts, making them hard to locate when a new phase begins
 
-### 1.2 The Cost of Unmanaged Prompts
+### 1.2 Why Fragmentation Costs Organizations
 
-Without structured prompt management:
+The cost does not arise from a fundamental mismatch in how teams approach prompts. Rather, the friction emerges because:
 
-- **Reduced Efficiency**: Developers reinvent prompts instead of reusing proven ones
-- **Inconsistent Quality**: No validation or testing of prompt effectiveness
-- **Knowledge Loss**: Institutional knowledge trapped in chat histories or individual notebooks
-- **Missed Opportunities**: No feedback loop to improve prompts based on real-world usage
+- **No Common Vocabulary**: Teams discover similar patterns but call them different things, so each team treats their solution as context-specific rather than reusable
+- **Implicit vs. Explicit**: Patterns that work are often implicit—embedded in conversations, experience, or individual practice—and difficult to extract
+- **Isolation**: Without a structured way to surface valuable prompts, learning from one project doesn't systematically transfer to the next
+- **No Feedback Loop**: Prompts that work well in one context have no path to be refined, tested, and returned to other teams
 
-**The core challenge is not AI capability, but the absence of a framework to systematically manage and leverage prompts across the SDLC.**
+**The challenge is not that teams are doing something wrong. The challenge is the absence of a shared language and mechanism to name and reuse what they're already doing well.**
 
 ---
 
 ## 2. Prompts as First-Class Software Assets
 
-POG reframes prompts as structured, versioned, and auditable artifacts that deserve the same rigor as source code.
+POG names a pattern we observe across mature teams: prompts, once valuable enough to be reused, naturally evolve to resemble first-class software artifacts—structured, versioned, and auditable.
 
-### 2.1 Definition
+### 2.1 Observation
 
-> **A Prompt** is a structured, versioned artifact that encodes intent, constraints, and context for model-driven execution. It is discoverable, testable, and reusable across projects and teams.
+> **What We See in Practice**: When teams scale from single-project exploration to multi-team orchestration, prompts that were initially ephemeral gradually become structured. They acquire versions, metadata, and test cases. They move from chat contexts to repositories. This is not a mandate—it's what naturally emerges when prompts begin to be shared and operationalized.
 
-### 2.2 Conceptual Mapping
+### 2.2 Patterns We Recognize
 
-| Traditional Software | POG Prompt-Centric Systems |
-|---------------------|----------------------------|
-| Source Code | Prompt Artifact |
-| Code Library | Prompt Repository |
-| Unit Test | Prompt Evaluation Case |
-| Version Control | Prompt Versioning |
-| Deployment | Prompt Activation |
-| Refactoring | Prompt Normalization |
+When prompts cross the threshold from single-use to shared, teams naturally organize them in ways that parallel how they manage code:
 
-### 2.3 Prompt Lifecycle Stages
+| What Teams Already Do | How We Name It |
+|---------------------|-----|
+| Craft reusable prompt text | Prompt Artifact |
+| Collect working prompts in one place | Prompt Repository |
+| Test prompts against known cases | Prompt Evaluation Case |
+| Track changes to prompts over time | Prompt Versioning |
+| Move prompts into production use | Prompt Activation |
+| Simplify and generalize prompts | Prompt Normalization |
 
-POG recognizes prompts evolve through distinct stages:
+This mapping is not "how you should do it." It's "what we observe when teams do this at scale."
 
-1. **Interaction Prompts**: Ad-hoc prompts used in chat or exploration
-2. **Discovered Prompts**: Identified as valuable and worth capturing
-3. **Normalized Prompts**: Structured, parameterized, and generalized
-4. **Validated Prompts**: Tested against evaluation cases
-5. **Skill Prompts**: Production-ready, versioned, and governed artifacts
+### 2.3 Prompt Evolution: The Natural Progression
 
----
+We observe prompts follow a fairly consistent trajectory as they move from experimental to operational:
+
+1. **Interaction Prompts**: Emerged in conversations or exploration; unsystematic
+2. **Discovered Prompts**: Recognized as valuable; someone decides to preserve it
+3. **Normalized Prompts**: Extracted, parameterized, made more general than its original context
+4. **Validated Prompts**: Tested against known cases; refined based on results
+5. **Skill Prompts**: Ready for production reuse; versioned, with clear metadata
+
+Not all prompts should follow this path—many are useful at stage 1. The stages describe what we see, not what every prompt must become.
 
 ## 3. POG Dual Architecture
 
@@ -173,6 +185,10 @@ The Prompt Warehouse Management function ensures prompts are systematically capt
 - Deprecate outdated prompts
 
 **Outputs**: Production-ready skill prompts in repository
+
+---
+
+*Note: This model describes a pattern we observe, not a prescription. Small teams, exploratory workflows, and less-structured contexts may not require all of these phases. The framework is descriptive, not normative.*
 
 ---
 
@@ -277,6 +293,10 @@ graph TD
 
 ---
 
+*Note: This layering is one way to organize prompts—not the only way. Some organizations may use different abstraction levels, and that's valid. What matters is recognizing that misalignment often happens when different teams are reasoning at different layers simultaneously.*
+
+---
+
 ## 7. Usage Scenarios
 
 ### 7.1 Scenario: Starting a New Project
@@ -365,6 +385,10 @@ graph TD
 
 ---
 
+*Note: We do not claim this feedback loop will function identically across all organizational contexts. The specifics of how evaluation, refinement, and promotion happen may vary significantly—and those variations themselves are data worth sharing.*
+
+---
+
 ## 9. Governance & Control Plane
 
 ### 9.1 Implementation-Agnostic Control Plane
@@ -422,26 +446,60 @@ Organizations implementing POG can expect:
 
 ## 11. Conclusion
 
-**Prompt Orchestration Governance (POG)** transforms prompts from ephemeral, ad-hoc inputs into strategic assets that systematically enhance the Software Development Life Cycle.
+**Prompt Orchestration Governance (POG)** names a pattern organizations discover—often retroactively—once prompts begin to be shared, reused, and operationalized at scale.
 
-By providing both a **Prompt Warehouse Management** function and an **SDLC-Aligned Prompt Library**, POG enables organizations to:
+This paper is not a mandate. It is a lens for thinking about what you may already be doing.
 
-- Capture and refine valuable prompts systematically
-- Accelerate every phase of software development
-- Build institutional knowledge that compounds over time
-- Continuously improve through feedback and measurement
+### What We Observe
 
-POG is not about replacing traditional SDLC practices or human expertise. Rather, it augments them by providing structured, tested, and proven prompts exactly when and where they're needed.
+Teams that mature in their prompt practice naturally converge on similar patterns: they create inventories, version their prompts, test them, and integrate them into SDLC workflows. This convergence is not coordinated—it happens independently across different organizations because the underlying problem is universal.
 
-As AI-enabled development becomes the norm, organizations with robust prompt governance will have a decisive advantage in speed, quality, and innovation.
+### What This Paper Does
 
-**The future of software development is not just about having access to AI—it's about systematically leveraging that access through frameworks like POG.**
+POG names that convergence. It provides a shared vocabulary so that when one team says "Skill Prompt," and another says "production-ready template," they recognize they're talking about the same thing. That naming alone—without any framework, without any mandate—reduces reinvention and accelerates knowledge transfer.
+
+### What This Paper Does Not Do
+
+- It does not prescribe *how* your prompts must be stored, versioned, or accessed
+- It does not claim completeness; gaps in this model are inevitable
+- It does not replace the human judgment required to implement these ideas in your context
+- It does not apply equally to all teams; small teams, exploratory contexts, and less-critical workflows may have different needs
+
+### An Invitation
+
+If your experience differs from what's described here—if you've found patterns that contradict this model, or gaps we haven't named—**that mismatch itself is valuable**. It means the model needs to evolve. We invite you to contribute those observations.
+
+The authority of a framework like this does not come from being "correct." It comes from being useful—from helping you recognize and name what's already happening, and from improving over time as different perspectives are added.
+
+**The most useful framework is not one that tells you what to do. It's one that helps you explain what you're already doing to others.**
 
 ---
 
-## Appendix: Key Terms
+## Appendix A: Common Questions & Clarifications
 
-**Interaction Prompt**: An ad-hoc prompt used during exploration or chat interactions.
+### "Isn't this just version control for prompts?"
+
+Not exactly. Version control is *part* of what we're describing, but POG is broader. It includes discovery, normalization, validation, and organization across SDLC phases. Some organizations may implement POG through Git; others through specialized platforms. The pattern itself is agnostic to the tooling.
+
+### "Does every prompt need to go through all five lifecycle stages?"
+
+No. The lifecycle stages describe what we observe when prompts mature toward production reuse. Many prompts are valuable at stage 1 (Interaction) and should stay there. The framework helps you recognize *when* a prompt should move to the next stage—not force all prompts through all stages.
+
+### "This sounds like more process overhead."
+
+It can be if implemented poorly. But most mature teams already do these things informally. POG names what you're probably already doing, making it visible and shareable. The goal is to *reduce* reinvention, not add bureaucracy.
+
+### "What if our organization is too small for this?"
+
+POG describes patterns visible at scale. Small teams working on exploratory projects may not need all components. That's not a failure of the framework—it's a recognition that different contexts have different needs. POG is useful when you reach the point where prompts are being shared across teams or projects.
+
+### "Doesn't this require a specific tool or platform?"
+
+No. POG is implementation-agnostic. You can implement it with Git, a dedicated platform, a simple spreadsheet, or a combination of approaches. The pattern matters; the tooling is a choice.
+
+---
+
+## Appendix B: Key Terms
 
 **Skill Prompt**: A production-ready, versioned, and governed prompt artifact ready for reuse.
 
@@ -466,15 +524,19 @@ As AI-enabled development becomes the norm, organizations with robust prompt gov
 ## About the Author
 
 **Ted Enjtorian**  
-*Framework Designer & Primary Author*
+*Framework Observer & Primary Author*
 
-With over 20 years of experience as a software systems architect, I witnessed a profound shift when LLM-powered coding tools like AI-assisted development emerged. While colleagues wielded these tools like magic to deliver impressive results, I noticed a critical gap: the prompts driving these outcomes remained invisible, undocumented, and unshared. This realization sparked POG, a framework to elevate prompts from ephemeral inputs to first-class artifacts worthy of the same rigor we apply to code itself.
+Over 20 years as a software systems architect has given me a front-row seat to how teams organize their work. When LLM-powered coding tools emerged, I noticed something: colleagues were achieving remarkable things with prompts, but those prompts remained invisible, undocumented, and unrepeated.
+
+This paper is not an invention. It's an attempt to name what I've observed happening—often independently—across teams and organizations. The patterns described here are not new; they're just becoming more visible as more teams cross the threshold where prompts become shared assets.
+
+POG emerged from watching teams solve similar problems, using similar approaches, but calling them different things. If this framework helps you recognize and name what you're already doing, and accelerates the conversation with others doing the same—then it has succeeded.
 
 **Connect:**  
 - 🔗 LinkedIn: https://tw.linkedin.com/in/enjtorian
 - 💻 GitHub: [@enjtorian](https://github.com/enjtorian)
 
-For detailed contributor information and citation guidelines, see [AUTHORS.md](https://github.com/enjtorian/prompt-orchestration-governance-whitepaper/blob/main/AUTHORS.md).
+For detailed contributor information and citation guidelines, see [AUTHORS.md](../AUTHORS.md).
 
 ---
 

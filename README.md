@@ -3,7 +3,7 @@
 [![Deploy MkDocs]](https://github.com/enjtorian/prompt-orchestration-governance-whitepaper/actions/workflows/deploy.yml)
 [![License: CC BY 4.0]](https://creativecommons.org/licenses/by/4.0/)
 
-A governance-first framework for prompt-driven systems with interaction-to-skill lifecycle.
+A framework for understanding how prompts naturally evolve to require governance as organizations scale their AI capabilities.
 
 **🌐 Website:** [https://enjtorian.github.io/prompt-orchestration-governance-whitepaper](https://enjtorian.github.io/prompt-orchestration-governance-whitepaper)
 
@@ -11,7 +11,7 @@ A governance-first framework for prompt-driven systems with interaction-to-skill
 
 ## 📖 About
 
-This repository contains the whitepaper for **Prompt Orchestration Governance (POG)**, a comprehensive framework that treats prompts as first-class software assets and establishes governance practices for prompt-driven AI systems.
+This repository contains the whitepaper for **Prompt Orchestration Governance (POG)**, which describes patterns organizations discover when managing prompts across teams and projects. POG provides a lens for understanding how prompts naturally become structured, versioned, and governed as they move from exploratory use to organizational assets.
 
 ### Key Concepts
 
@@ -25,15 +25,17 @@ This repository contains the whitepaper for **Prompt Orchestration Governance (P
 ## 👥 Author
 
 **Created by:** Ted Enjtorian  
-*Framework Designer & Primary Author*
+*Framework Observer & Primary Author*
 
-With over 20 years of experience as a software systems architect, I witnessed a profound shift when LLM-powered coding tools like AI-assisted development emerged. While colleagues wielded these tools like magic to deliver impressive results, I noticed a critical gap: the prompts driving these outcomes remained invisible, undocumented, and unshared. This realization sparked POG, a framework to elevate prompts from ephemeral inputs to first-class artifacts worthy of the same rigor we apply to code itself.
+As a software systems architect with over 20 years of experience, I had a front-row seat to how teams organize their work. When LLM-powered coding tools emerged, I noticed something: colleagues were achieving remarkable things with prompts, but those prompts remained invisible, undocumented, and unrepeated.
+
+This paper is not an invention. It's an attempt to name what I've observed happening—often independently—across teams and organizations. The patterns described here are not new; they're just becoming more visible as more teams cross the threshold where prompts become shared assets.
 
 **Connect:**  
 - 🔗 LinkedIn: https://tw.linkedin.com/in/enjtorian
 - 💻 GitHub: [@enjtorian](https://github.com/enjtorian)
 
-See [AUTHORS.md](https://github.com/enjtorian/prompt-orchestration-governance-whitepaper/blob/main/AUTHORS.md) for complete contributor information and citation guidelines.
+See [AUTHORS.md](AUTHORS.md) for complete contributor information and citation guidelines.
 
 ---
 
@@ -251,7 +253,7 @@ https://github.com/enjtorian/prompt-orchestration-governance-whitepaper
 Licensed under CC BY 4.0
 ```
 
-For detailed citation information, see [AUTHORS.md](https://github.com/enjtorian/prompt-orchestration-governance-whitepaper/blob/main/AUTHORS.md).
+For detailed citation information, see [AUTHORS.md](AUTHORS.md).
 
 ---
 

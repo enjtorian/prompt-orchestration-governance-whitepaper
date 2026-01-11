@@ -12,12 +12,14 @@ Common questions about Prompt Orchestration Governance (POG) implementation and 
 
 ### Why do I need POG?
 
-You need POG if:
+POG is useful when:
 - Your organization uses AI-assisted development across multiple teams
-- You're recreating similar prompts repeatedly
-- You lack systematic ways to share and reuse prompts
-- You need governance, compliance, or audit trails for AI usage
-- You want to build institutional knowledge around effective prompts
+- You observe similar prompts being recreated repeatedly
+- You need systematic ways to share and reuse prompts
+- Governance, compliance, or audit trails become important for AI usage
+- You're building institutional knowledge around effective prompts
+
+It's less useful when you're in early exploration or working as a single team.
 
 ### Is POG only for large enterprises?
 

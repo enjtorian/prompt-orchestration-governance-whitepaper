@@ -3,13 +3,13 @@
 ## Primary Author
 
 **Ted Enjtorian**  
-*Framework Designer & Primary Author*
+*Framework Observer & Primary Author*
 
 - **LinkedIn**: https://tw.linkedin.com/in/enjtorian
 - **GitHub**: [@enjtorian](https://github.com/enjtorian)
 
 ### Contributions
-- Initial POG framework conceptualization and design
+- POG framework observation, documentation, and organization
 - Complete whitepaper authorship (English version)
 - Architecture and automation diagrams design
 - Framework comparisons (PDD, PDE)
@@ -19,7 +19,11 @@
 - Quick start guide creation
 
 ### Background
-With over 20 years of experience as a software systems architect, I witnessed a profound shift when LLM-powered coding tools like AI-assisted development emerged. While colleagues wielded these tools like magic to deliver impressive results, I noticed a critical gap: the prompts driving these outcomes remained invisible, undocumented, and unshared. This realization sparked POG as a framework to elevate prompts from ephemeral inputs to first-class artifacts worthy of the same rigor we apply to code itself.
+Over 20 years as a software systems architect has given me a front-row seat to how teams organize their work. When LLM-powered coding tools emerged, I noticed something: colleagues were achieving remarkable things with prompts, but those prompts remained invisible, undocumented, and unrepeated.
+
+This paper is not an invention. It's an attempt to name what I've observed happening—often independently—across teams and organizations. The patterns described here are not new; they're just becoming more visible as more teams cross the threshold where prompts become shared assets.
+
+POG emerged from watching teams solve similar problems, using similar approaches, but calling them different things. If this framework helps you recognize and name what you're already doing, and accelerates the conversation with others doing the same—then it has succeeded.
 
 ---
 

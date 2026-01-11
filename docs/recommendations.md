@@ -16,48 +16,48 @@ This guide provides actionable recommendations for organizations considering or 
 
 ---
 
-## Decision Framework: Should You Implement POG?
+## Decision Framework: When POG Becomes Useful
 
-### Adopt POG When:
+### POG is Useful When:
 
 ✅ **Organization Size & Complexity**
-- Multiple teams (5+) using AI-assisted development
-- Cross-team collaboration needs
-- Multiple projects sharing common patterns
+- Multiple teams (5+) working with AI-assisted development
+- Cross-team collaboration with prompts
+- Multiple projects where prompt patterns are being discovered
 
-✅ **Governance Requirements**
-- Need for audit trails and compliance
+✅ **Governance Needs Emerge**
+- Audit trails and compliance become important
 - Regulated industry (finance, healthcare, government)
-- Quality assurance mandates
+- Quality and consistency matter across teams
 
-✅ **Maturity Level**
-- Beyond experimental phase with AI
-- Ready to formalize processes
-- Willing to invest in infrastructure
+✅ **Maturity with AI**
+- Organization has moved beyond exploration phase
+- Ready to systematize what's working
+- Can allocate resources to structure
 
-✅ **Strategic Goals**
-- Building long-term institutional knowledge
-- Want to maximize ROI from AI investments
-- Seeking competitive advantage through AI efficiency
+✅ **Strategic Objectives**
+- Building institutional knowledge over time
+- Want to understand ROI from AI investments
+- Seeking advantages through systematic prompt practices
 
-### Consider Alternatives When:
+### POG May Not Be Necessary When:
 
-⚠️ **Too Early**
+⚠️ **Early Exploration**
 - Just starting with AI tools
-- Still exploring what works
+- Still discovering what works
 - Team size < 5 developers
 
-⚠️ **Too Simple**
+⚠️ **Low Complexity**
 - Single team, single project
-- Minimal collaboration needs
+- Minimal sharing needs
 - Informal processes sufficient
 
-⚠️ **Resource Constraints**
-- Cannot dedicate resources to setup and maintenance
-- No budget for tooling and training
-- Urgent delivery timelines
+⚠️ **Resource Limitations**
+- Cannot allocate resources to setup and maintenance
+- No budget for additional tooling
+- Urgent delivery timelines that preclude formalization
 
-**Recommendation**: Start with lightweight approaches (like PDD) and graduate to POG as complexity and scale demand it.
+**Perspective**: Start with lightweight approaches and gradually adopt more systematic practices as your prompt usage and team size grow. POG describes patterns visible at scale—implement it when those patterns become relevant for you.
 
 ---
 
@@ -528,22 +528,22 @@ Annual ROI: $84,000
 
 ## Conclusion
 
-Successfully implementing POG requires:
+Adopting systematic prompt practices (like those described in POG) becomes increasingly valuable as:
 
-1. **Right Timing**: Adopt when organization complexity demands it
-2. **Appropriate Scope**: Start simple, scale as needed
-3. **Team Buy-In**: Make it valuable and easy to use
-4. **Clear Ownership**: Dedicated resources for success
-5. **Continuous Improvement**: Regular refinement based on feedback
+1. **Scale Increases**: Multiple teams discovering similar prompt patterns
+2. **Complexity Grows**: Need for consistency and knowledge sharing emerges
+3. **Value Compounds**: Well-organized prompts improve over time and multiply their usefulness
+4. **Institutional Knowledge**: Patterns worth capturing accumulate
+5. **Continuous Learning**: Feedback from real usage informs refinement
 
-**Start Small, Think Big**: Begin with a lightweight implementation and grow into full POG as your organization matures in AI adoption.
+**Progressive Adoption**: Begin with informal practices, then adopt systematic structures only when the benefits outweigh the overhead. There's no single "right time"—it depends on your context.
 
-**Next Steps**:
-1. Assess your organization's readiness
-2. Choose appropriate implementation strategy
-3. Pilot with one team
-4. Measure and iterate
-5. Scale gradually
+**Suggested Path**:
+1. Assess your organization's prompt usage and team dynamics
+2. Start with lightweight organization (Git-based, shared docs)
+3. Pilot systematic practices with one team
+4. Measure what works in your context
+5. Scale practices that deliver value
 
 ---
 

@@ -6,10 +6,12 @@ This section provides detailed comparisons between POG (Prompt Orchestration Gov
 
 ## Overview
 
-POG represents a comprehensive framework for managing prompts as first-class software assets. To help understand its unique value proposition, we compare it with other established methodologies and approaches:
+POG describes patterns we observe when teams manage prompts at organizational scale. To help contextualize how it relates to other approaches, we compare it with other established methodologies:
 
 - **[PDD - Prompt-Driven Development](pdd.md)**: Development methodology centered on prompts as primary development artifacts
 - **[PDE - Prompt-Driven Engineering](pde.md)**: Engineering approach focused on prompt-first system design
+
+Each approach has different strengths and applies best to different contexts. This section explores those differences.
 
 ---
 
