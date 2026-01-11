@@ -540,7 +540,7 @@ POG 來自於觀察團隊解決相似的問題、使用相似的方法，但用�
 - 🔗 LinkedIn: https://tw.linkedin.com/in/enjtorian
 - 💻 GitHub: [@enjtorian](https://github.com/enjtorian)
 
-完整貢獻者資訊和引用指南,請參閱 [AUTHORS.md](../../AUTHORS.md)。
+完整貢獻者資訊和引用指南,請參閱 [AUTHORS.md](https://github.com/enjtorian/prompt-orchestration-governance-whitepaper/blob/main/AUTHORS.md)。
 
 ---
 
