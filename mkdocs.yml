@@ -40,6 +40,8 @@ theme:
     - content.code.copy
   icon:
     repo: fontawesome/brands/github
+  javascript:
+    - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
 
 plugins:
   - search
@@ -50,7 +52,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:mermaid2.fence_mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.details
@@ -65,10 +67,10 @@ markdown_extensions:
 extra:
   alternate:
     - name: English
-      link: /
+      link: /prompt-orchestration-governance-whitepaper/
       lang: en
     - name: 繁體中文
-      link: /zh-tw/
+      link: /prompt-orchestration-governance-whitepaper/zh-tw/
       lang: zh-tw
 
 nav:
