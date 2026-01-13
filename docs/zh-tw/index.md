@@ -1,8 +1,27 @@
+---
+title: Prompt Orchestration Governance (POG)
+description: 用於跨 SDLC 將 prompt 作為一級軟體資產進行管理的治理優先框架
+tags:
+  - POG
+  - 提示編排治理
+  - LLM
+  - AI
+  - 治理
+  - SDLC
+  - Prompt管理
+keywords: POG, Prompt Orchestration Governance, 提示編排治理, LLM, AI, 軟體開發, SDLC
+author: Ted Enjtorian
+date: 2026-01-14
+language: zh-tw
+---
+
 # Prompt Orchestration Governance (POG)
 
 **將 Prompt 作為一級軟體資產進行管理的跨 SDLC 框架**
 
 Version 1.0 | January 2026
+
+**標籤：** `#POG` `#提示編排治理` `#LLM` `#治理` `#SDLC`
 
 ---
 

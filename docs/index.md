@@ -1,8 +1,26 @@
+---
+title: Prompt Orchestration Governance (POG)
+description: A governance-first framework for managing prompts as first-class software assets across the SDLC
+tags:
+  - POG
+  - PromptOrchestrationGovernance
+  - LLM
+  - AI
+  - Governance
+  - SDLC
+  - PromptManagement
+keywords: POG, Prompt Orchestration Governance, LLM, AI, Software Development, SDLC
+author: Ted Enjtorian
+date: 2026-01-14
+---
+
 # Prompt Orchestration Governance (POG)
 
 **A Framework for Managing Prompts as First-Class Software Assets Across the SDLC**
 
 Version 1.0 | January 2026
+
+**Tags:** `#POG` `#PromptOrchestrationGovernance` `#LLM` `#Governance` `#SDLC`
 
 ---
 
