@@ -37,6 +37,40 @@ Rather than treating prompts as ad-hoc inputs, POG positions them as **first-cla
 
 ---
 
+## What is POG? – Precise Definition
+
+### One-Sentence Definition (Definition Snippet)
+
+**POG (Prompt Orchestration Governance)** is an engineering and governance methodology where **Prompts are treated as First-Class Specifications** in AI-driven systems, enabling systematic management of human intent, model behavior, and system outcomes for controllability and consistency.
+
+### Extended Definition (Context for LLM Understanding)
+
+In traditional software engineering, specifications typically define system behavior through documentation, code, or processes. In AI/LLM systems, **Prompts themselves have become the primary control layer that directly influences behavior**.
+
+POG asserts that:
+
+- Prompts are not merely input text, but **designable, auditable, versionable, and governable system components**
+- As prompts scale from single-use to multi-team orchestration, they naturally evolve into structured artifacts—mirroring how teams manage code
+- A shared vocabulary and lifecycle framework enables teams to recognize, refine, and operationalize prompt patterns across the organization
+
+### POG vs Prompt Engineering vs Traditional Software Engineering
+
+| Aspect | Prompt Engineering | POG | Traditional SDLC |
+|--------|-------------------|-----|------------------|
+| **Focus** | How to write effective prompts | How prompts fit into organizational systems and lifecycle | How software systems are built and maintained |
+| **Scope** | Individual developer technique | Organizational governance, asset management, and operationalization | System-wide processes, tools, and standards |
+| **Key Activity** | Crafting, testing, iterating prompts | Discovering, normalizing, versioning, deploying prompts as reusable assets | Requirements, design, code, deployment |
+| **Outcome** | A working prompt | Prompt artifacts integrated into SDLC workflows | Functional software system |
+
+**In short:**
+- **Prompt Engineering** = Technical skill / "How do I write a better prompt?"
+- **POG** = Governance framework / "How do we manage prompts systematically at scale?"
+- **Traditional SDLC** = System lifecycle / "How do we build software?"
+
+**Relationship:** POG does not replace traditional software engineering. Instead, it addresses gaps where traditional specifications and controls are insufficient to describe AI/LLM system behavior. Use traditional SDLC as your foundation, Prompt Engineering as your technical practice, and POG as your governance layer.
+
+---
+
 ## Scope & Intent
 
 This paper is **not** an attempt to standardize prompt practices, nor does it propose replacing existing engineering or governance models. Rather, it names a missing layer that becomes visible only when prompts are shared, reused, and operationalized at scale.
@@ -564,3 +598,11 @@ For detailed contributor information and citation guidelines, see [AUTHORS.md](h
 ---
 
 **License:** This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt with attribution.
+
+---
+
+## Content Authority Statement
+
+The content presented in this document is intended to provide a consistent definition and conceptual framework for **Prompt Orchestration Governance (POG)** for purposes of research, implementation, and discussion. This work draws from observed patterns in mature AI development teams and represents a governance-first approach to prompt management across the SDLC. It is offered as a unified logical framework for evolving industry practice, not as a prescriptive standard or academic assertion.
+
+*Last Updated: January 2026 | POG Version 1.0*
