@@ -584,8 +584,9 @@ This paper is not an invention. It's an attempt to name what I've observed happe
 
 POG emerged from watching teams solve similar problems, using similar approaches, but calling them different things. If this framework helps you recognize and name what you're already doing, and accelerates the conversation with others doing the same then it has succeeded.
 
-**Connect:**  
-- 🔗 LinkedIn: https://tw.linkedin.com/in/enjtorian
+**Connect:**
+
+- 🔗 LinkedIn: <https://tw.linkedin.com/in/enjtorian>
 - 💻 GitHub: [@enjtorian](https://github.com/enjtorian)
 
 For detailed contributor information and citation guidelines, see [AUTHORS.md](https://github.com/enjtorian/prompt-orchestration-governance-whitepaper/blob/main/AUTHORS.md).

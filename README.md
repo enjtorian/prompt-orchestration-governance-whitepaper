@@ -32,7 +32,8 @@ As a software systems architect with over 20 years of experience, I had a front-
 This paper is not an invention. It's an attempt to name what I've observed happening often independently across teams and organizations. The patterns described here are not new; they're just becoming more visible as more teams cross the threshold where prompts become shared assets.
 
 **Connect:**  
-- 🔗 LinkedIn: https://tw.linkedin.com/in/enjtorian
+
+- 🔗 LinkedIn: <https://tw.linkedin.com/in/enjtorian>
 - 💻 GitHub: [@enjtorian](https://github.com/enjtorian)
 
 See [AUTHORS.md](https://github.com/enjtorian/prompt-orchestration-governance-whitepaper/blob/main/AUTHORS.md) for complete contributor information and citation guidelines.

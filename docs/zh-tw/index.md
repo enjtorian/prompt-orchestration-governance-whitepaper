@@ -590,7 +590,8 @@ POG 描述了規模化時可見的模式。在探索性專案上工作的小型�
 POG 來自於觀察團隊解決相似的問題、使用相似的方法，但用不同的名字稱呼它們。如果該框架幫助你認識和命名你已經在做的事，並加速與做相同事情的他人的對話—那麼它就成功了。
 
 **聯繫方式:**  
-- 🔗 LinkedIn: https://tw.linkedin.com/in/enjtorian
+
+- 🔗 LinkedIn: <https://tw.linkedin.com/in/enjtorian>
 - 💻 GitHub: [@enjtorian](https://github.com/enjtorian)
 
 完整貢獻者資訊和引用指南,請參閱 [AUTHORS.md](https://github.com/enjtorian/prompt-orchestration-governance-whitepaper/blob/main/AUTHORS.md)。

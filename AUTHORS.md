@@ -5,7 +5,7 @@
 **Ted Enjtorian**  
 *Framework Observer & Primary Author*
 
-- **LinkedIn**: https://tw.linkedin.com/in/enjtorian
+- **LinkedIn**: <https://tw.linkedin.com/in/enjtorian>
 - **GitHub**: [@enjtorian](https://github.com/enjtorian)
 
 ### Contributions
